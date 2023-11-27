@@ -9,6 +9,12 @@ h1 {
     background: rgb(108, 172, 44);
     border: 5px solid rgb(12, 70, 27);
     border-radius: 40px;
+    box-shadow: -8px 6px 10px rgb(95, 21, 62);
+    transition: 1s;
+}
+
+button:hover{
+    transform: scale(1.07);
 }
 
 #gameDiv{

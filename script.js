@@ -1,4 +1,9 @@
 
+const element = document.getElementById("rock");
+element.addEventListener("click", function() {
+  document.getElementById("result").innerHTML = round();
+});
+
 //Define options for computer
 let computerOptions = ["rock", "paper", "scissors"];
 // Create variable for input into gameplay, connected to function
@@ -12,7 +17,7 @@ function getComputerChoice() {
 
 // Get player selection - need BUTTONS
 function getPlayerChoice() {
-    let playerSelection = prompt("Rock, paper, scissors").toLowerCase();
+    let playerSelection = prompt("rock, paper, scissors").toLowerCase();
     return playerSelection;
     }
 
@@ -57,3 +62,4 @@ function game() {
     }
     console.log(playerScore > computerScore ? "You win!" : "You lose!");
 }     
+console.log(round("scissors", "scissors"));
