@@ -1,5 +1,7 @@
 h1 {
     background-color: blanchedalmond;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .button{
@@ -23,5 +25,17 @@ button:hover{
     border: 5px dashed;
     border-radius: 10px;
     padding: 10px;
-    background-color:steelblue
+    background-color:steelblue;
+ 
+}
+
+#results{
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: center;
+    border: 5px dashed;
+    border-radius: 10px;
+    padding: 25px;
+    background-color:steelblue;
+    margin-top: 10px;
+ 
 }
